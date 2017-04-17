@@ -1,0 +1,43 @@
+body p{
+	font-size: 22px;
+}
+@font-face {
+	font-family: "cheeseborger";
+	src: url('cheeseborger.ttf');
+}
+.color-bloc{
+	background: #31b0bc;
+}
+.color-bloc2{
+	background-color: white;
+}
+.title-white {
+	color: white;
+}
+.title-white p{
+	color: white;
+}
+.bg img{
+    margin-top: 188px;
+    width: 250px;
+    height: 203px;
+}
+.img-2{
+	webkit-transform: rotate(7deg);
+    transform: rotate(-88deg);
+    float: right; 
+    color: white;
+}
+.title{
+	color:  #31b0bc!important;
+}
+.name1a{
+	    margin-left: 67px;
+    font-size: 24px;
+    color: black;
+}
+.name1b{
+	    margin-left: 67px;
+    font-size: 24px;
+    color: white;
+}
