@@ -119,5 +119,6 @@ hr.colored {
     border-bottom: 1px solid #00000021;
 }
 .page-section {
+        margin-top: 284px; /* ah enlever */
     padding: 100px 0;
 }
