@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<meta charset="utf-8">
+
+	<title>Octavia</title>
+
+	<!-- Behavioral Meta Data -->
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
+	<!-- Styles -->
+
+	<!-- Compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="css/style.css"/>
+
+	<!-- Compiled and minified JavaScript -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+	<script>
+        $(document).ready(function(data) {
+            $('#btnNext').on('click', function() { // Au clic sur un élément
+                var page = $(this).attr('href'); // Page cible
+                var speed = 1050; // Durée de l'animation (en ms)
+                $('html, body').animate( { scrollTop: $(page).offset().top }, speed ); // Go
+                return false;
+                console.log(data);
+            });
+        });
+        $(document).ready(function(data) {
+            $('.menuright a').on('click', function() { // Au clic sur un élément
+                var page = $(this).attr('href'); // Page cible
+                var speed = 900; // Durée de l'animation (en ms)
+                $('html, body').animate( { scrollTop: $(page).offset().top }, speed ); // Go
+                return false;
+                console.log(data);
+            });
+        });
+	</script>
+</head>
+<body>
+<div id="section1">
+	<div class="row">
+		<div id="particles-js" class="container-fluid back" >
+			<div class="contentHead" >
+				<div id="scene" class="scene">
+					<div  data-depth="1.00"><img width="350px" height="350px" style="margin-right: auto;margin-left: auto" src="./images/octavialogo.png"></div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="buttonNext">
+		<a id="btnNext" href="#section2" ><img src="./images/bottom.png" alt="next" width="50px;" height="50px;"></a>
+	</div>
+</div>
+<!-- <div class="navigation">
+	<ul class="nav flex-sm-column menuright">
+		<a id="one" class="nav-link" href="#section1">Octavia</a></li>
+		<a id="two" class="nav-link active" href="#section2">La plateform</a></li>
+		<a id="three" class="nav-link" href="#section3">Serious Game</a></li>
+		<a id="four" class="nav-link" href="#section4">L'équipe</a></li>
+		<a id="five" class="nav-link" href="#section5">Sociaux</a></li>
+	</ul>
+</div> -->
+<section class="page-section" id="section2">
+	<div class="text-center">
+		<h1>En cours de création</h1>
+	</div>
+<!-- 	<br>
+	<div class="container">
+		<div class="row">
+			<div class="col">
+				<div class="media">
+					<img class="mr-3" src="http://facetheforce.today/random/400?r=1" alt="Generic placeholder image">
+					<div class="media-body">
+						<h2 class="mt-0">Media heading</h2>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dol</p>
+						<p>re eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="container" style="    padding: 35px;">
+		<div class="row">
+			<div class="col">
+
+				<img src="http://facetheforce.today/random/200?r=1" class="rounded mx-auto d-block" alt="...">
+				<div class="text-center">
+					<h3 class="te">one</h3>
+					<span>bla bla balbacar lol mdr</span>
+				</div>
+
+			</div>
+			<div class="col">
+				<img src="http://facetheforce.today/random/200?r=1" class="rounded mx-auto d-block" alt="...">
+				<div class="text-center">
+					<h3 class="te">one</h3>
+					<span>bla bla balbacar lol mdr</span>
+				</div>
+			</div>
+			<div class="col">
+				<img src="http://facetheforce.today/random/200?r=1" class="rounded mx-auto d-block" alt="...">
+				<div class="text-center">
+					<h3 class="te">one</h3>
+					<span>bla bla balbacar lol mdr</span>
+				</div>
+			</div>
+			<div class="col">
+				<img src="http://facetheforce.today/random/200?r=1" class="rounded mx-auto d-block" alt="...">
+				<div class="text-center">
+					<h3 class="te">one</h3>
+					<span>bla bla balbacar lol mdr</span>
+				</div>
+			</div>
+		</div>
+	</div> -->
+</section>
+<!--<hr>
+ <section class="page-section" id="section3">
+	<div class="text-center">
+		<h1>Serious game</h1>
+	</div>
+	<br>
+	<div class="container">
+		<div class="row">
+			<div class="col">
+				<div class="media">
+					<img class="mr-3" src="http://facetheforce.today/random/400?r=1" alt="Generic placeholder image">
+					<div class="media-body">
+						<h2 class="mt-0">Media heading</h2>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dol</p>
+						<p>re eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="container" style="    padding: 35px;">
+		<div class="row">
+			<div class="col">
+
+				<img src="http://facetheforce.today/random/200?r=1" class="rounded mx-auto d-block" alt="...">
+				<div class="text-center">
+					<h3 class="te">one</h3>
+					<span>bla bla balbacar lol mdr</span>
+				</div>
+
+			</div>
+			<div class="col">
+				<img src="http://facetheforce.today/random/200?r=1" class="rounded mx-auto d-block" alt="...">
+				<div class="text-center">
+					<h3 class="te">one</h3>
+					<span>bla bla balbacar lol mdr</span>
+				</div>
+			</div>
+			<div class="col">
+				<img src="http://facetheforce.today/random/200?r=1" class="rounded mx-auto d-block" alt="...">
+				<div class="text-center">
+					<h3 class="te">one</h3>
+					<span>bla bla balbacar lol mdr</span>
+				</div>
+			</div>
+			<div class="col">
+				<img src="http://facetheforce.today/random/200?r=1" class="rounded mx-auto d-block" alt="...">
+				<div class="text-center">
+					<h3 class="te">one</h3>
+					<span>bla bla balbacar lol mdr</span>
+				</div>
+			</div>
+		</div>
+	</div>
+</section> 
+<hr> -->
+	<!-- Scripts -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js"></script>
+	<script src="js/particles.min.js"></script>
+	<script>
+
+	// Pretty simple huh?
+	var scene = document.getElementById('scene');
+	var parallax = new Parallax(scene);
+    /* ---- particles.js config ---- */
+
+    particlesJS("particles-js", {
+        "particles": {
+            "number": {
+                "value": 80,
+                "density": {
+                    "enable": true,
+                    "value_area": 800
+                }
+            },
+            "color": {
+                "value": "#ffffff"
+            },
+            "shape": {
+                "type": "circle",
+                "stroke": {
+                    "width": 0,
+                    "color": "#000000"
+                },
+                "polygon": {
+                    "nb_sides": 5
+                },
+                "image": {
+                    "src": "img/github.svg",
+                    "width": 100,
+                    "height": 100
+                }
+            },
+            "opacity": {
+                "value": 0.5,
+                "random": false,
+                "anim": {
+                    "enable": false,
+                    "speed": 1,
+                    "opacity_min": 0.1,
+                    "sync": false
+                }
+            },
+            "size": {
+                "value": 13,
+                "random": true,
+                "anim": {
+                    "enable": false,
+                    "speed": 40,
+                    "size_min": 0.1,
+                    "sync": false
+                }
+            },
+            "line_linked": {
+                "enable": false,
+                "distance": 150,
+                "color": "#ffffff",
+                "opacity": 0,
+                "width": 0
+            },
+            "move": {
+                "enable": true,
+                "speed": 6,
+                "direction": "none",
+                "random": false,
+                "straight": false,
+                "out_mode": "out",
+                "bounce": false,
+                "attract": {
+                    "enable": false,
+                    "rotateX": 600,
+                    "rotateY": 1200
+                }
+            }
+        },
+        "interactivity": {
+            "detect_on": "canvas",
+            "events": {
+                "onhover": {
+                    "enable": true,
+                    "mode": "grab"
+                },
+                "onclick": {
+                    "enable": true,
+                    "mode": "push"
+                },
+                "resize": true
+            },
+            "modes": {
+                "grab": {
+                    "distance": 140,
+                    "line_linked": {
+                        "opacity": 0
+                    }
+                },
+                "bubble": {
+                    "distance": 400,
+                    "size": 140,
+                    "duration": 2,
+                    "opacity": 8,
+                    "speed": 3
+                },
+                "repulse": {
+                    "distance": 200,
+                    "duration": 0.4
+                },
+                "push": {
+                    "particles_nb": 4
+                },
+                "remove": {
+                    "particles_nb": 2
+                }
+            }
+        },
+        "retina_detect": true
+    });
+
+
+    /* ---- stats.js config ---- */
+
+    $(document).ready(function () {
+        var top = $('#section2').offset().top;
+        $(window).scroll(function (event) {
+            var y = $(this).scrollTop();
+            if (y >= top / 2){
+                $('.menuright').css('opacity','1');
+            }else{
+                $('.menuright').css('opacity','0');
+            }
+//            if (y == top /2 ){
+//                $('.menuright a').removeClass('nav-link-active');
+//                $('#two').addClass('nav-link-active');
+//			}else if(y == top1 /2 ){
+//                $('.menuright a').removeClass('nav-link-active');
+//                $('#three').addClass('nav-link-active');
+//			}else if(y == top2 /2){
+//                $('.menuright a').removeClass('nav-link-active');
+//                $('#four').addClass('nav-link-active');
+//            }else if(y == top3 /2){
+//                $('.menuright a').removeClass('nav-link-active');
+//                $('#five').addClass('nav-link-active');
+//            }
+        });
+    });
+	</script>
+
+</body>
+</html>
