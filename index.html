@@ -17,9 +17,11 @@
     <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
 
     <!-- Plugin CSS -->
     <link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
 
     <!-- Custom styles for this template -->
     <link href="css/freelancer.css" rel="stylesheet">
@@ -94,14 +96,20 @@
         <h2 class="text-center text-uppercase">Nos jeux</h2>
         <hr class="star-light mb-5">
         <div class="row">
-          <div class="col-lg-4 ml-auto">
-            <p class="lead">Octavia est une plateforme ludo-éducative à destination des écoles primaires. Afin de redynamiser la pédagogie dans les classes et lutter contre la guerres des devoirs à la maison, utilisez Octavia </p>
-            <p></p>
-          </div>
-          <div class="col-lg-4 mr-auto">
+          <div class="col-lg-5 ml-auto">
             <p class="lead">
               Suivant le programme de l'éducation national, nous avons crées plusieurs jeux afin de redynamiser l'enseignement. Math, Français, Anglais et bientôt Histoire, compose la bibliothèque actuel d'Octavia. Voyager dans
               l'espace, sauver des villes, assister le roi de France, de nombreuses histoires attendent vos écoliers et vos enfants.
+            </p>
+          </div>
+          <div class="col-lg-5 mr-auto">
+            <p class="lead">
+            <div class="fade">
+              <img src="img/color.PNG" alt="">
+              <img src="img/dico2814.PNG" alt="">
+              <img src="img/mathsdefender.PNG" alt="">
+              <img src="img/spy.PNG" alt="">
+            </div>
             </p>
           <div>
         </div>
@@ -346,6 +354,7 @@
 
     <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
     <!-- Plugin JavaScript -->
@@ -358,7 +367,15 @@
 
     <!-- Custom scripts for this template -->
     <script src="js/freelancer.min.js"></script>
-
+    <script>
+        $('.fade').slick({
+            dots: true,
+            infinite: true,
+            speed: 500,
+            fade: true,
+            cssEase: 'linear'
+        });
+    </script>
   </body>
 
 </html>
